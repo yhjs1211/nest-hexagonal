@@ -93,7 +93,15 @@
     },
     "ignore": ["eslint.config.mjs"]
   },
+  "json": {
+    "parser": {
+      "allowComments": true
+    }
+  },
   "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    },
     "formatter": {
       "jsxQuoteStyle": "double",
       "quoteProperties": "asNeeded",
